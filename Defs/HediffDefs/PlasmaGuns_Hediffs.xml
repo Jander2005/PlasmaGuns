@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Defs>
+    <HediffDef ParentName="BeamWound"></HediffDef>
+    <defName>PlasmaGuns_PlasmaBurn</defName>
+    <label>plasma burn</label>
+    <labelNoun>a plasma burn</labelNoun>
+    <description>A plasma burn.</description>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>old plasma burn</permanentLabel>
+        <instantlyPermanentLabel>permanent plasma burn</instantlyPermanentLabel>
+      </li>
+    </comps>
+</Defs>

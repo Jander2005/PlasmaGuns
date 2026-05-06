@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Defs>
+    <DamageDef Name="Plasma">
+        <defName>PlasmaGuns_PlasmaBlast</defName>
+        <label>plasma</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been burned to death by plasma.</deathMessage>
+        <hediff>PlasmaGuns_PlasmaBurn</hediff>
+        <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+        <impactSoundType>Bullet</impactSoundType>
+        <armorCategory>Heat</armorCategory>
+        <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+        <isRanged>true</isRanged>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+        <defaultDamage>10</defaultDamage>
+        <defaultArmorPenetration>0.5</defaultArmorPenetration>
+    </DamageDef>
+</Defs>

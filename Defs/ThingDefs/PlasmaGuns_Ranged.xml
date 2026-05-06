@@ -27,7 +27,7 @@
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
       </recipeUsers>
-      <displayPriority>200</displayPriority>
+      <displayPriority>201</displayPriority>
     </recipeMaker>
     <costList>
       <Plasteel>60</Plasteel>
@@ -49,7 +49,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_PlasmaBlast</defaultProjectile>
+        <defaultProjectile>PlasmaGuns_PlasmaRifleBullet</defaultProjectile>
         <warmupTime>1.1</warmupTime>
         <range>26</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -78,5 +78,19 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PlasmaGuns_PlasmaRifleBullet</defName>
+    <label>plasma shot</label>
+    <graphicData>
+      <texPath>PlasmaGuns/PlasmaGuns_PlasmaBlast</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PlasmaGuns_PlasmaBlast</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
   </ThingDef>
 </Defs>
