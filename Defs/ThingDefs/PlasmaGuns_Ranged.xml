@@ -6,7 +6,7 @@
     <description>A plasma blast assault rifle. Superheating technology charges each shot with unstable plasma as it leaves the barrel. The superheated plasma greatly increases the damage done, with the flaming heat causing heavy burns.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>PlasmaGuns/PlasmaGuns_PlasmaRifle</texPath>
+      <texPath>PlasmaGuns/PlasmaRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -83,7 +83,7 @@
     <defName>PlasmaGuns_PlasmaRifleBullet</defName>
     <label>plasma shot</label>
     <graphicData>
-      <texPath>PlasmaGuns/PlasmaGuns_PlasmaBlast</texPath>
+      <texPath>PlasmaGuns/PlasmaBlast</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>

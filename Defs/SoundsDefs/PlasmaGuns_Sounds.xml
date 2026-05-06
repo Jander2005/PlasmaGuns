@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Defs>
+    <SoundDef>
+        <defName>PlasmaGuns_PlasmaRifle</defName>
+        <context>MapOnly</context>
+        <subSounds>
+  <li>
+    <grains>
+      <li Class="AudioGrain_Clip">
+        <clipPath>PlasmaGuns/PlasmaRifle_Shot</clipPath>
+      </li>
+    </grains>
+    <volumeRange>40~45</volumeRange>
+    <pitchRange>0.8940217~1.084783</pitchRange>
+  </li>
+</subSounds>
+    </SoundDef>
+</Defs>

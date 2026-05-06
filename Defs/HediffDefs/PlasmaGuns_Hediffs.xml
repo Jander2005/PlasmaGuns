@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Defs>
-    <HediffDef ParentName="BeamWound"></HediffDef>
+    <HediffDef ParentName="InjuryBase">
     <defName>PlasmaGuns_PlasmaBurn</defName>
     <label>plasma burn</label>
     <labelNoun>a plasma burn</labelNoun>
@@ -16,4 +16,13 @@
         <instantlyPermanentLabel>permanent plasma burn</instantlyPermanentLabel>
       </li>
     </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <bleedRate>0.06</bleedRate>
+      <canMerge>false</canMerge>
+      <destroyedLabel>Burned off</destroyedLabel>
+      <destroyedOutLabel>Burned out</destroyedOutLabel>
+    </injuryProps>
+    </HediffDef>
 </Defs>
