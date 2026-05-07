@@ -15,5 +15,11 @@
         <makesAnimalsFlee>true</makesAnimalsFlee>
         <defaultDamage>10</defaultDamage>
         <defaultArmorPenetration>0.5</defaultArmorPenetration>
+        <igniteChanceByTargetFlammability>
+      <points>
+        <li>(0, 0)</li>
+        <li>(0.5, 0.7)</li>
+      </points>
+    </igniteChanceByTargetFlammability>
     </DamageDef>
 </Defs>
