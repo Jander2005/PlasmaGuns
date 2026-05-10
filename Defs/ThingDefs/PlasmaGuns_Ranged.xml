@@ -8,6 +8,7 @@
     <graphicData>
       <texPath>PlasmaGuns/PlasmaRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.20</drawSize>
     </graphicData>
     <soundInteract>Interact_ChargeRifle</soundInteract>
     <statBases>
