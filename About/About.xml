@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ModMetaData>
-    <packageId>nedda.PlasmaRifle</packageId>
-    <name>Plasma Rifle</name>
+    <packageId>nedda.PlasmaWeapons</packageId>
+    <name>plasma weapons</name>
     <author>nedda</author>
-    <description>A new plasma rifle, 4 shot burst, longer cooldown, shorter range, fire damage somtimes</description>
+    <description>A set of plasma weapons inspired by the fallout series, including a rifle, pistol, and a melee weapon</description>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>

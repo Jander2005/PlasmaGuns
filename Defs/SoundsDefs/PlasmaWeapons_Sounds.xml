@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Defs>
     <SoundDef>
-        <defName>PlasmaGuns_PlasmaRifle</defName>
+        <defName>PlasmaWeapons_PlasmaRifle</defName>
         <context>MapOnly</context>
         <subSounds>
   <li>
     <grains>
       <li Class="AudioGrain_Clip">
-        <clipPath>PlasmaGuns/PlasmaRifle_Shot</clipPath>
+        <clipPath>PlasmaWeapons/PlasmaRifle_Shot</clipPath>
       </li>
     </grains>
     <volumeRange>40~45</volumeRange>

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Defs>
     <DamageDef Name="Plasma">
-        <defName>PlasmaGuns_PlasmaBlast</defName>
+        <defName>PlasmaWeapons_PlasmaBlast</defName>
         <label>plasma</label>
         <workerClass>DamageWorker_AddInjury</workerClass>
         <externalViolence>true</externalViolence>
         <deathMessage>{0} has been burned to death by plasma.</deathMessage>
-        <hediff>PlasmaGuns_PlasmaBurn</hediff>
+        <hediff>PlasmaWeapons_PlasmaBurn</hediff>
         <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
         <impactSoundType>Bullet</impactSoundType>
         <armorCategory>Heat</armorCategory>
