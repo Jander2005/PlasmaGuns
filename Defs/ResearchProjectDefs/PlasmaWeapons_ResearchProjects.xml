@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Defs>
+    <ResearchProjectDef>
+        <defName>PlasmaWeapons_PlasmaResearch</defName>
+        <label>plasma weaponry</label>
+        <description>Build weapons that fire superheated plasma, with a chance to set targets on fire.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ChargedShot</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>19.00</researchViewX>
+    <researchViewY>1.80</researchViewY>
+    </ResearchProjectDef>
+</Defs>

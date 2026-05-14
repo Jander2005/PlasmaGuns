@@ -21,7 +21,7 @@
       <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>PlasmaWeapons_PlasmaResearch</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -108,7 +108,7 @@
     <uiIconScale>1.2</uiIconScale>
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>PlasmaWeapons_PlasmaResearch</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
