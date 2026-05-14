@@ -15,4 +15,19 @@
   </li>
 </subSounds>
     </SoundDef>
+    <SoundDef>
+        <defName>PlasmaWeapons_PlasmaPistol</defName>
+        <context>MapOnly</context>
+        <subSounds>
+  <li>
+    <grains>
+      <li Class="AudioGrain_Clip">
+        <clipPath>PlasmaWeapons/PlasmaPistol_Shot</clipPath>
+      </li>
+    </grains>
+    <volumeRange>40~45</volumeRange>
+    <pitchRange>0.8940217~1.084783</pitchRange>
+  </li>
+</subSounds>
+    </SoundDef>
 </Defs>

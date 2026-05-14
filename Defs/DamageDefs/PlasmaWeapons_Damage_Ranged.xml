@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Defs>
-    <DamageDef Name="Plasma">
+    <DamageDef>
         <defName>PlasmaWeapons_PlasmaBlast</defName>
         <label>plasma</label>
         <workerClass>DamageWorker_AddInjury</workerClass>
@@ -13,12 +13,30 @@
         <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
         <isRanged>true</isRanged>
         <makesAnimalsFlee>true</makesAnimalsFlee>
-        <defaultDamage>10</defaultDamage>
-        <defaultArmorPenetration>0.5</defaultArmorPenetration>
         <igniteChanceByTargetFlammability>
       <points>
         <li>(0, 0)</li>
         <li>(0.5, 0.7)</li>
+      </points>
+    </igniteChanceByTargetFlammability>
+    </DamageDef>
+     <DamageDef>
+        <defName>PlasmaWeapons_PlasmaBlastSmall</defName>
+        <label>plasma</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been burned to death by plasma.</deathMessage>
+        <hediff>PlasmaWeapons_PlasmaBurn</hediff>
+        <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+        <impactSoundType>Bullet</impactSoundType>
+        <armorCategory>Heat</armorCategory>
+        <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+        <isRanged>true</isRanged>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+        <igniteChanceByTargetFlammability>
+      <points>
+        <li>(0, 0)</li>
+        <li>(0.3, 0.7)</li>
       </points>
     </igniteChanceByTargetFlammability>
     </DamageDef>

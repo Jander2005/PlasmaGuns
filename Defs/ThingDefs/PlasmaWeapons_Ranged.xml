@@ -31,7 +31,8 @@
       <displayPriority>201</displayPriority>
     </recipeMaker>
     <costList>
-      <Plasteel>60</Plasteel>
+      <Plasteel>30</Plasteel>
+      <Steel>30</Steel>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <thingSetMakerTags>
@@ -89,7 +90,7 @@
     </graphicData>
     <projectile>
       <damageDef>PlasmaWeapons_PlasmaBlast</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>17</damageAmountBase>
       <armorPenetrationBase>0.25</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
@@ -98,49 +99,52 @@
   <!-- Review Each Line -->
   <ThingDef ParentName="BaseHumanMakeableGun" Name="PlasmaWeapons_PlasmaPistol">
     <defName>PlasmaWeapons_PlasmaPistol</defName>
-    <label>autopistol</label>
-    <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
+    <label>plasma pistol</label>
+    <description>A rugged plasma pistol. Superheats air into plasma at blasts it out the barrel. It lacks accuracy and range, but is quick to fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Autopistol</texPath>
+      <texPath>PlasmaWeapons/PlasmaPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <uiIconScale>1.5</uiIconScale>
+    <uiIconScale>1.2</uiIconScale>
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
-      <displayPriority>405</displayPriority>
+      <displayPriority>202</displayPriority>
     </recipeMaker>
     <weaponTags>
-      <li>SimpleGun</li>
-      <li>Autopistol</li>
+      <li>SpacerGun</li>
     </weaponTags>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
     <weaponClasses>
       <li>RangedLight</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>5000</WorkToMake>
+      <WorkToMake>20000</WorkToMake>
       <Mass>1.2</Mass>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.40</AccuracyMedium>
-      <AccuracyLong>0.30</AccuracyLong>
-      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.30</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>30</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Plasteel>10</Plasteel>
+      <Steel>20</Steel>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_Autopistol</defaultProjectile>
+        <defaultProjectile>PlasmaWeapons_PlasmaPistolBullet</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <range>25.9</range>
-        <soundCast>Shot_Autopistol</soundCast>
+        <range>24.9</range>
+        <soundCast>PlasmaWeapons_PlasmaPistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -164,5 +168,18 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>PlasmaWeapons_PlasmaPistolBullet</defName>
+    <label>plasma pistol bullet</label>
+    <graphicData>
+      <texPath>PlasmaWeapons/PlasmaBlastSmall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>PlasmaWeapons_PlasmaBlastSmall</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
   </ThingDef>
 </Defs>
