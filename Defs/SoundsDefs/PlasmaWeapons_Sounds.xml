@@ -40,7 +40,22 @@
         <clipPath>PlasmaWeapons/PlasmaCaster_Shot</clipPath>
       </li>
     </grains>
-    <volumeRange>45~50</volumeRange>
+    <volumeRange>42~47</volumeRange>
+    <pitchRange>0.8940217~1.084783</pitchRange>
+  </li>
+</subSounds>
+    </SoundDef>
+     <SoundDef>
+        <defName>PlasmaWeapons_PlasmaCutter</defName>
+        <context>MapOnly</context>
+        <subSounds>
+  <li>
+    <grains>
+      <li Class="AudioGrain_Clip">
+        <clipPath>PlasmaWeapons/PlasmaCutter_Slice</clipPath>
+      </li>
+    </grains>
+    <volumeRange>35~40</volumeRange>
     <pitchRange>0.8940217~1.084783</pitchRange>
   </li>
 </subSounds>

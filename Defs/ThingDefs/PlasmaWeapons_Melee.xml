@@ -4,8 +4,8 @@
         <defName>PlasmaWeapons_PlasmaCutter</defName>
         <label>plasma cutter</label>
         <description>A tool typically used on the construction site for cutting. Utilizes a focussed plasma beam for melting through rock or metal. Can also be used as effectively as a weapon.</description>
-        <soundInteract>Interact_PlasmaSword</soundInteract>
-        <meleeHitSound>MeleeHit_PlasmaSword</meleeHitSound>
+        <soundInteract>Standard_Pickup</soundInteract>
+        <meleeHitSound>PlasmaWeapons_PlasmaCutter</meleeHitSound>
         <recipeMaker Inherit="False">
             <researchPrerequisite>PlasmaWeapons_PlasmaResearch</researchPrerequisite>
             <skillRequirements>
@@ -65,7 +65,7 @@
                     <li>
                         <def>Flame</def>
                         <amount>8</amount>
-                        <chance>0.5</chance>
+                        <chance>0.6</chance>
                     </li>
                 </extraMeleeDamages>
             </li>
