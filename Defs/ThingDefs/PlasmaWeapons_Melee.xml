@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Defs>
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>PlasmaWeapons_PlasmaCutter</defName>
+        <label>plasma cutter</label>
+        <description>A tool typically used on the construction site for cutting. Utilizes a focussed plasma beam for melting through rock or metal. Can also be used as effectively as a weapon.</description>
+        <soundInteract>Interact_PlasmaSword</soundInteract>
+        <meleeHitSound>MeleeHit_PlasmaSword</meleeHitSound>
+        <recipeMaker Inherit="False">
+            <researchPrerequisite>PlasmaWeapons_PlasmaResearch</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <displayPriority>203</displayPriority>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+        </recipeMaker>
+        <statBases>
+            <MarketValue>1000</MarketValue>
+            <Mass>1.2</Mass>
+            <WorkToMake>30000</WorkToMake>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <weaponClasses>
+            <li>MeleePiercer</li>
+        </weaponClasses>
+        <costList>
+            <Plasteel>10</Plasteel>
+            <Steel>40</Steel>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <graphicData>
+            <texPath>PlasmaWeapons/PlasmaCutter</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>21</power>
+                <cooldownTime>2.6</cooldownTime>
+                <extraMeleeDamages>
+                    <li>
+                        <def>Flame</def>
+                        <amount>10</amount>
+                        <chance>0.5</chance>
+                    </li>
+                </extraMeleeDamages>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>
