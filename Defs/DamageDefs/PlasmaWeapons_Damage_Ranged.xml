@@ -40,4 +40,24 @@
       </points>
     </igniteChanceByTargetFlammability>
     </DamageDef>
+    <DamageDef>
+        <defName>PlasmaWeapons_PlasmaBlastLarge</defName>
+        <label>plasma</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been burned to death by plasma.</deathMessage>
+        <hediff>PlasmaWeapons_PlasmaBurn</hediff>
+        <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+        <impactSoundType>Bullet</impactSoundType>
+        <armorCategory>Heat</armorCategory>
+        <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+        <isRanged>true</isRanged>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+        <igniteChanceByTargetFlammability>
+      <points>
+        <li>(0, 0)</li>
+        <li>(0.8, 0.7)</li>
+      </points>
+    </igniteChanceByTargetFlammability>
+    </DamageDef>
 </Defs>

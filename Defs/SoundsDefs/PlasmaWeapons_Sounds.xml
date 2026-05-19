@@ -30,4 +30,19 @@
   </li>
 </subSounds>
     </SoundDef>
+    <SoundDef>
+        <defName>PlasmaWeapons_PlasmaCaster</defName>
+        <context>MapOnly</context>
+        <subSounds>
+  <li>
+    <grains>
+      <li Class="AudioGrain_Clip">
+        <clipPath>PlasmaWeapons/PlasmaCaster_Shot</clipPath>
+      </li>
+    </grains>
+    <volumeRange>45~50</volumeRange>
+    <pitchRange>0.8940217~1.084783</pitchRange>
+  </li>
+</subSounds>
+    </SoundDef>
 </Defs>

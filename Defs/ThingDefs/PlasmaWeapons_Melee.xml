@@ -14,7 +14,7 @@
             <recipeUsers>
                 <li>FabricationBench</li>
             </recipeUsers>
-            <displayPriority>203</displayPriority>
+            <displayPriority>204</displayPriority>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <workSkill>Crafting</workSkill>
             <effectWorking>Smith</effectWorking>
@@ -26,6 +26,9 @@
             <Mass>1.2</Mass>
             <WorkToMake>30000</WorkToMake>
         </statBases>
+        <equippedStatOffsets>
+            <MiningSpeed>0.10</MiningSpeed>
+        </equippedStatOffsets>
         <equippedAngleOffset>-65</equippedAngleOffset>
         <weaponClasses>
             <li>MeleePiercer</li>
@@ -52,16 +55,16 @@
                 <cooldownTime>2</cooldownTime>
             </li>
             <li>
-                <label>edge</label>
+                <label>plasma beam</label>
                 <capacities>
                     <li>Cut</li>
                 </capacities>
-                <power>21</power>
+                <power>15</power>
                 <cooldownTime>2.6</cooldownTime>
                 <extraMeleeDamages>
                     <li>
                         <def>Flame</def>
-                        <amount>10</amount>
+                        <amount>8</amount>
                         <chance>0.5</chance>
                     </li>
                 </extraMeleeDamages>
