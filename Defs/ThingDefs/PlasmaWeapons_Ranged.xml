@@ -191,7 +191,7 @@
     <graphicData>
       <texPath>PlasmaWeapons/PlasmaCaster</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.35</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <thingSetMakerTags>

@@ -40,7 +40,7 @@
         <clipPath>PlasmaWeapons/PlasmaCaster_Shot</clipPath>
       </li>
     </grains>
-    <volumeRange>42~47</volumeRange>
+    <volumeRange>40~45</volumeRange>
     <pitchRange>0.8940217~1.084783</pitchRange>
   </li>
 </subSounds>
