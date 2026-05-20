@@ -23,7 +23,7 @@
         </recipeMaker>
         <statBases>
             <MarketValue>1000</MarketValue>
-            <Mass>1.2</Mass>
+            <Mass>2</Mass>
             <WorkToMake>30000</WorkToMake>
         </statBases>
         <equippedStatOffsets>
@@ -55,7 +55,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
             <li>
-                <label>plasma beam</label>
+                <label>beam</label>
                 <capacities>
                     <li>Cut</li>
                 </capacities>
@@ -65,7 +65,7 @@
                     <li>
                         <def>Flame</def>
                         <amount>8</amount>
-                        <chance>0.7</chance>
+                        <chance>0.6</chance>
                     </li>
                 </extraMeleeDamages>
             </li>
