@@ -3,7 +3,7 @@
     <packageId>nedda.PlasmaWeapons</packageId>
     <name>plasma weapons</name>
     <author>nedda</author>
-    <description>A set of plasma weapons inspired by the fallout series, including a rifle, pistol, and a melee weapon</description>
+    <description>A set of plasma weapons inspired by the fallout series, including the rifle, caster, pistol (defender), and a cutter</description>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
