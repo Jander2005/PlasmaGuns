@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ModMetaData>
     <packageId>nedda.PlasmaWeapons</packageId>
-    <name>plasma weapons</name>
+    <name>Fallout Plasma Weapons</name>
     <author>nedda</author>
     <description>A set of plasma weapons inspired by the fallout series, including the rifle, caster, pistol (defender), and a cutter</description>
     <supportedVersions>
