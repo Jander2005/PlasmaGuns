@@ -103,6 +103,7 @@
     <graphicData>
       <texPath>PlasmaWeapons/PlasmaPistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.9</drawSize>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <soundInteract>Interact_Autopistol</soundInteract>
